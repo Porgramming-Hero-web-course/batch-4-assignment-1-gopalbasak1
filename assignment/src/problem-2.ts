@@ -1,11 +1,13 @@
 {
     //
-        function sumArray(numbers: number[]): number {
-        return numbers.reduce((accumulator, current) => accumulator + current, 0);
+    
+    function removeDuplicates(numbers: number[]): number[] {
+        return numbers.filter((num, index) => numbers.indexOf(num) === index);
     }
     
-    // Sample Input
-    console.log(sumArray([1, 2, 3, 4, 5])); // Output: 15
+    
+    console.log(removeDuplicates([1, 2, 2, 3, 4, 4, 5,])); 
+    
     
     
     //
