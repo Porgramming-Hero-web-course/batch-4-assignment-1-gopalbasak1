@@ -33,7 +33,7 @@ interface Admin {
 }
 
 let userAdmin: User & Admin = {
-    name: 'John Doe',
+    name: 'Jon Sina',
     role: 'admin'
 };
 ```
